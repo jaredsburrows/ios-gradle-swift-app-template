@@ -1,4 +1,4 @@
-ios-gradle-swift-template [![Status](https://travis-ci.org/jaredsburrows/ios-gradle-swift-template.svg?branch=master)](https://travis-ci.org/jaredsburrows/ios-gradle-swift-template) [![Coverage Status](https://coveralls.io/repos/github/jaredsburrows/ios-gradle-swift-template/badge.svg?branch=master)](https://coveralls.io/github/jaredsburrows/ios-gradle-swift-template?branch=master)
+ios-gradle-swift-template [![Status](https://travis-ci.org/jaredsburrows/ios-gradle-swift-app-template.svg?branch=master)](https://travis-ci.org/jaredsburrows/ios-gradle-swift-app-template) [![Coverage Status](https://coveralls.io/repos/github/jaredsburrows/ios-gradle-swift-app-template/badge.svg?branch=master)](https://coveralls.io/github/jaredsburrows/ios-gradle-swift-app-template?branch=master)
 =========
 Gradle + Xcode + XCTest + Gcovr
 
@@ -27,7 +27,7 @@ Gradle + Xcode + XCTest + Gcovr
 
 ## Comand Line(Advanced):
 ##### Clone with `Git`:
- - `git clone https://github.com/jaredsburrows/ios-gradle-swift-template.git`
+ - `git clone https://github.com/jaredsburrows/ios-gradle-swift-app-template.git`
  - `cd ios-gradle-swift-template`
 
 ##### Building with `Gradle`:
@@ -54,7 +54,7 @@ This project uses [`synx`](https://github.com/venmo/synx):
 License
 =========
 
-    Copyright (C) 2016 ios-gradle-swift-template by Jared Burrows
+    Copyright (C) 2016 ios-gradle-swift-app-template by Jared Burrows
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
