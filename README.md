@@ -1,4 +1,4 @@
-ios-gradle-swift-template [![Status](https://travis-ci.org/jaredsburrows/ios-gradle-swift-app-template.svg?branch=master)](https://travis-ci.org/jaredsburrows/ios-gradle-swift-app-template) [![Coverage Status](https://coveralls.io/repos/github/jaredsburrows/ios-gradle-swift-app-template/badge.svg?branch=master)](https://coveralls.io/github/jaredsburrows/ios-gradle-swift-app-template?branch=master)
+ios-gradle-swift-app-template [![Status](https://travis-ci.org/jaredsburrows/ios-gradle-swift-app-template.svg?branch=master)](https://travis-ci.org/jaredsburrows/ios-gradle-swift-app-template) [![Coverage Status](https://coveralls.io/repos/github/jaredsburrows/ios-gradle-swift-app-template/badge.svg?branch=master)](https://coveralls.io/github/jaredsburrows/ios-gradle-swift-app-template?branch=master)
 =========
 Gradle + Xcode + XCTest + Gcovr
 
