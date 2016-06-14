@@ -32,5 +32,4 @@ class ios_gradle_swift_templateTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }
