@@ -54,7 +54,7 @@ This project uses [`synx`](https://github.com/venmo/synx):
 License
 =========
 
-    Copyright (C) 2016 ios-gradle-swift-app-template by Jared Burrows
+    Copyright (C) 2016 iOS Gradle Swift App Template by Jared Burrows
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
