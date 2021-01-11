@@ -27,7 +27,7 @@ jobs:
         uses: gradle/wrapper-validation-action@v1
 
       - name: Build and Run Tests
-        run: ./gradlew clean build coverage coveralls -s --scan
+        run: ./gradlew clean build -s --scan
 
       - name: Kill the Simulator
         run: ./gradlew simulatorKill -s --scan
