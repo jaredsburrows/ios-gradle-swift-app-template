@@ -1,6 +1,11 @@
 name: build
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [ opened, labeled, unlabeled, synchronize ]
 
 jobs:
   ios:
@@ -11,7 +16,7 @@ jobs:
 
     steps:
       - name: Cache Gradle dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v2
         with:
           path: |
             ~/.gradle/caches
@@ -21,10 +26,13 @@ jobs:
           restore-keys: ${{ runner.os }}-gradle
 
       - name: Checkout Project
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Validate Gradle Wrapper
         uses: gradle/wrapper-validation-action@v1
+
+      - name: Build Debug APKs and Run lint checks
+        uses: gradle/gradle-build-action@v2.4.0
 
       - name: Build and Run Tests
         run: ./gradlew clean build -s --scan
@@ -34,12 +42,10 @@ jobs:
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
-        if: always()
+        if: github.repository == 'jaredsburrows/ios-gradle-swift-app-template' && github.ref == 'refs/heads/master'
         with:
-          name: ios-gradle-objc-app-template-${{ github.workflow }}-${{ github.run_id }}
+          name: ios-gradle-swift-app-template-${{ github.workflow }}-${{ github.run_id }}
           path: |
             ios-gradle-objc-app-template/build/outputs
             ios-gradle-objc-app-template/build/reports
             ios-gradle-objc-app-template/build/test-results
-          if-no-files-found: warn
-
