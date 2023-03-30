@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E7457029D6433800569AF7 /* ios_gradle_swift_app_templateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7456F29D6433800569AF7 /* ios_gradle_swift_app_templateApp.swift */; };
+		30E7457229D6433800569AF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7457129D6433800569AF7 /* ContentView.swift */; };
+		30E7457429D6433800569AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E7457329D6433800569AF7 /* Assets.xcassets */; };
+		30E7457829D6433800569AF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E7457729D6433800569AF7 /* Preview Assets.xcassets */; };
+		30E7458229D6433900569AF7 /* ios_gradle_swift_app_templateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7458129D6433900569AF7 /* ios_gradle_swift_app_templateTests.swift */; };
+		30E7458C29D6433900569AF7 /* ios_gradle_swift_app_templateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7458B29D6433900569AF7 /* ios_gradle_swift_app_templateUITests.swift */; };
+		30E7458E29D6433900569AF7 /* ios_gradle_swift_app_templateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7458D29D6433900569AF7 /* ios_gradle_swift_app_templateUITestsLaunchTests.swift */; };
+		D1AE60878EB874640F2E3C00 /* libPods-ios-gradle-swift-app-template.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0610AC4C581B450BA59E4F3F /* libPods-ios-gradle-swift-app-template.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E7457E29D6433900569AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E7456429D6433800569AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E7456B29D6433800569AF7;
+			remoteInfo = "ios-gradle-swift-app-template";
+		};
+		30E7458829D6433900569AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E7456429D6433800569AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E7456B29D6433800569AF7;
+			remoteInfo = "ios-gradle-swift-app-template";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0610AC4C581B450BA59E4F3F /* libPods-ios-gradle-swift-app-template.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-gradle-swift-app-template.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E7456C29D6433800569AF7 /* ios-gradle-swift-app-template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gradle-swift-app-template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E7456F29D6433800569AF7 /* ios_gradle_swift_app_templateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gradle_swift_app_templateApp.swift; sourceTree = "<group>"; };
+		30E7457129D6433800569AF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30E7457329D6433800569AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E7457529D6433800569AF7 /* ios_gradle_swift_app_template.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ios_gradle_swift_app_template.entitlements; sourceTree = "<group>"; };
+		30E7457729D6433800569AF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30E7457D29D6433900569AF7 /* ios-gradle-swift-app-templateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-gradle-swift-app-templateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E7458129D6433900569AF7 /* ios_gradle_swift_app_templateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gradle_swift_app_templateTests.swift; sourceTree = "<group>"; };
+		30E7458729D6433900569AF7 /* ios-gradle-swift-app-templateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-gradle-swift-app-templateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E7458B29D6433900569AF7 /* ios_gradle_swift_app_templateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gradle_swift_app_templateUITests.swift; sourceTree = "<group>"; };
+		30E7458D29D6433900569AF7 /* ios_gradle_swift_app_templateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gradle_swift_app_templateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		502F913E669231C62F9A714A /* Pods-ios-gradle-swift-app-template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gradle-swift-app-template.release.xcconfig"; path = "Target Support Files/Pods-ios-gradle-swift-app-template/Pods-ios-gradle-swift-app-template.release.xcconfig"; sourceTree = "<group>"; };
+		C77E475EB10E920035540B5D /* Pods-ios-gradle-swift-app-template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gradle-swift-app-template.debug.xcconfig"; path = "Target Support Files/Pods-ios-gradle-swift-app-template/Pods-ios-gradle-swift-app-template.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E7456929D6433800569AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AE60878EB874640F2E3C00 /* libPods-ios-gradle-swift-app-template.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7457A29D6433900569AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7458429D6433900569AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E7456329D6433800569AF7 = {
+			isa = PBXGroup;
+			children = (
+				30E7456E29D6433800569AF7 /* ios-gradle-swift-app-template */,
+				30E7458029D6433900569AF7 /* ios-gradle-swift-app-templateTests */,
+				30E7458A29D6433900569AF7 /* ios-gradle-swift-app-templateUITests */,
+				30E7456D29D6433800569AF7 /* Products */,
+				AC12B26E2792DB34776877C8 /* Pods */,
+				702094179EAA3C9D99D57BFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30E7456D29D6433800569AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E7456C29D6433800569AF7 /* ios-gradle-swift-app-template.app */,
+				30E7457D29D6433900569AF7 /* ios-gradle-swift-app-templateTests.xctest */,
+				30E7458729D6433900569AF7 /* ios-gradle-swift-app-templateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E7456E29D6433800569AF7 /* ios-gradle-swift-app-template */ = {
+			isa = PBXGroup;
+			children = (
+				30E7456F29D6433800569AF7 /* ios_gradle_swift_app_templateApp.swift */,
+				30E7457129D6433800569AF7 /* ContentView.swift */,
+				30E7457329D6433800569AF7 /* Assets.xcassets */,
+				30E7457529D6433800569AF7 /* ios_gradle_swift_app_template.entitlements */,
+				30E7457629D6433800569AF7 /* Preview Content */,
+			);
+			path = "ios-gradle-swift-app-template";
+			sourceTree = "<group>";
+		};
+		30E7457629D6433800569AF7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30E7457729D6433800569AF7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30E7458029D6433900569AF7 /* ios-gradle-swift-app-templateTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E7458129D6433900569AF7 /* ios_gradle_swift_app_templateTests.swift */,
+			);
+			path = "ios-gradle-swift-app-templateTests";
+			sourceTree = "<group>";
+		};
+		30E7458A29D6433900569AF7 /* ios-gradle-swift-app-templateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30E7458B29D6433900569AF7 /* ios_gradle_swift_app_templateUITests.swift */,
+				30E7458D29D6433900569AF7 /* ios_gradle_swift_app_templateUITestsLaunchTests.swift */,
+			);
+			path = "ios-gradle-swift-app-templateUITests";
+			sourceTree = "<group>";
+		};
+		702094179EAA3C9D99D57BFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0610AC4C581B450BA59E4F3F /* libPods-ios-gradle-swift-app-template.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC12B26E2792DB34776877C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C77E475EB10E920035540B5D /* Pods-ios-gradle-swift-app-template.debug.xcconfig */,
+				502F913E669231C62F9A714A /* Pods-ios-gradle-swift-app-template.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E7456B29D6433800569AF7 /* ios-gradle-swift-app-template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E7459129D6433900569AF7 /* Build configuration list for PBXNativeTarget "ios-gradle-swift-app-template" */;
+			buildPhases = (
+				95DAA97F8F10BE8B517A0419 /* [CP] Check Pods Manifest.lock */,
+				30E7456829D6433800569AF7 /* Sources */,
+				30E7456929D6433800569AF7 /* Frameworks */,
+				30E7456A29D6433800569AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-gradle-swift-app-template";
+			productName = "ios-gradle-swift-app-template";
+			productReference = 30E7456C29D6433800569AF7 /* ios-gradle-swift-app-template.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E7457C29D6433900569AF7 /* ios-gradle-swift-app-templateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E7459429D6433900569AF7 /* Build configuration list for PBXNativeTarget "ios-gradle-swift-app-templateTests" */;
+			buildPhases = (
+				30E7457929D6433900569AF7 /* Sources */,
+				30E7457A29D6433900569AF7 /* Frameworks */,
+				30E7457B29D6433900569AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E7457F29D6433900569AF7 /* PBXTargetDependency */,
+			);
+			name = "ios-gradle-swift-app-templateTests";
+			productName = "ios-gradle-swift-app-templateTests";
+			productReference = 30E7457D29D6433900569AF7 /* ios-gradle-swift-app-templateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30E7458629D6433900569AF7 /* ios-gradle-swift-app-templateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E7459729D6433900569AF7 /* Build configuration list for PBXNativeTarget "ios-gradle-swift-app-templateUITests" */;
+			buildPhases = (
+				30E7458329D6433900569AF7 /* Sources */,
+				30E7458429D6433900569AF7 /* Frameworks */,
+				30E7458529D6433900569AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E7458929D6433900569AF7 /* PBXTargetDependency */,
+			);
+			name = "ios-gradle-swift-app-templateUITests";
+			productName = "ios-gradle-swift-app-templateUITests";
+			productReference = 30E7458729D6433900569AF7 /* ios-gradle-swift-app-templateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E7456429D6433800569AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					30E7456B29D6433800569AF7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					30E7457C29D6433900569AF7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 30E7456B29D6433800569AF7;
+					};
+					30E7458629D6433900569AF7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 30E7456B29D6433800569AF7;
+					};
+				};
+			};
+			buildConfigurationList = 30E7456729D6433800569AF7 /* Build configuration list for PBXProject "ios-gradle-swift-app-template" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E7456329D6433800569AF7;
+			productRefGroup = 30E7456D29D6433800569AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E7456B29D6433800569AF7 /* ios-gradle-swift-app-template */,
+				30E7457C29D6433900569AF7 /* ios-gradle-swift-app-templateTests */,
+				30E7458629D6433900569AF7 /* ios-gradle-swift-app-templateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E7456A29D6433800569AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E7457829D6433800569AF7 /* Preview Assets.xcassets in Resources */,
+				30E7457429D6433800569AF7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7457B29D6433900569AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7458529D6433900569AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95DAA97F8F10BE8B517A0419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-gradle-swift-app-template-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E7456829D6433800569AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E7457229D6433800569AF7 /* ContentView.swift in Sources */,
+				30E7457029D6433800569AF7 /* ios_gradle_swift_app_templateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7457929D6433900569AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E7458229D6433900569AF7 /* ios_gradle_swift_app_templateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7458329D6433900569AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E7458C29D6433900569AF7 /* ios_gradle_swift_app_templateUITests.swift in Sources */,
+				30E7458E29D6433900569AF7 /* ios_gradle_swift_app_templateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E7457F29D6433900569AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E7456B29D6433800569AF7 /* ios-gradle-swift-app-template */;
+			targetProxy = 30E7457E29D6433900569AF7 /* PBXContainerItemProxy */;
+		};
+		30E7458929D6433900569AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E7456B29D6433800569AF7 /* ios-gradle-swift-app-template */;
+			targetProxy = 30E7458829D6433900569AF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30E7458F29D6433900569AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30E7459029D6433900569AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		30E7459229D6433900569AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77E475EB10E920035540B5D /* Pods-ios-gradle-swift-app-template.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-gradle-swift-app-template/ios_gradle_swift_app_template.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-gradle-swift-app-template/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredsburrows.ios-gradle-swift-app-template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E7459329D6433900569AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502F913E669231C62F9A714A /* Pods-ios-gradle-swift-app-template.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-gradle-swift-app-template/ios_gradle_swift_app_template.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-gradle-swift-app-template/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredsburrows.ios-gradle-swift-app-template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30E7459529D6433900569AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredsburrows.ios-gradle-swift-app-templateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-gradle-swift-app-template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-gradle-swift-app-template";
+			};
+			name = Debug;
+		};
+		30E7459629D6433900569AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredsburrows.ios-gradle-swift-app-templateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-gradle-swift-app-template.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-gradle-swift-app-template";
+			};
+			name = Release;
+		};
+		30E7459829D6433900569AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredsburrows.ios-gradle-swift-app-templateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-gradle-swift-app-template";
+			};
+			name = Debug;
+		};
+		30E7459929D6433900569AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredsburrows.ios-gradle-swift-app-templateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-gradle-swift-app-template";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E7456729D6433800569AF7 /* Build configuration list for PBXProject "ios-gradle-swift-app-template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E7458F29D6433900569AF7 /* Debug */,
+				30E7459029D6433900569AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E7459129D6433900569AF7 /* Build configuration list for PBXNativeTarget "ios-gradle-swift-app-template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E7459229D6433900569AF7 /* Debug */,
+				30E7459329D6433900569AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E7459429D6433900569AF7 /* Build configuration list for PBXNativeTarget "ios-gradle-swift-app-templateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E7459529D6433900569AF7 /* Debug */,
+				30E7459629D6433900569AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E7459729D6433900569AF7 /* Build configuration list for PBXNativeTarget "ios-gradle-swift-app-templateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E7459829D6433900569AF7 /* Debug */,
+				30E7459929D6433900569AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E7456429D6433800569AF7 /* Project object */;
+}

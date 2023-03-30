@@ -4,13 +4,13 @@ plugins {
 }
 
 xcodebuild {
-  target = 'ios-gradle-swift-template'
-  scheme = 'ios-gradle-swift-template'
+  target = 'ios-gradle-swift-app-template'
+  scheme = 'ios-gradle-swift-app-template'
 
   configuration = 'Debug'
 
   destination {
-    name = 'iPhone 12'
+    name = 'iPhone 14'
   }
 
   coverage {
